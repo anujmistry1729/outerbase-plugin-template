@@ -1,6 +1,6 @@
-import { OuterbasePluginConfig_$PLUGIN_ID } from "./pluginConfig"
-import { templateEditor_$PLUGIN_ID } from "./template/templateEditor"
-import { PRIVILEGES } from './constants/privileges'
+import { OuterbasePluginConfig_$PLUGIN_ID } from "../config"
+import { templateEditor_$PLUGIN_ID } from "./view/cell-editor"
+import { PRIVILEGES } from '../privileges'
 
 export class OuterbasePluginEditor_$PLUGIN_ID extends HTMLElement {
     static get observedAttributes() {
